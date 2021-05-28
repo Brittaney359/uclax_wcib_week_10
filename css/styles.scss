@@ -36,12 +36,14 @@ h6 {
 .container4 {
   background-color: #000;
   padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .container5 {
-  background-image: url('/images/cliffs.png');
+  background-image: url('../images/cliffs.png');
   background-size: 100%;
   padding-top: 5%;
+  padding-bottom: 5%;
 }
 .row {
   margin-left: 7%;
@@ -54,9 +56,25 @@ h6 {
   color: #ffffff;
 }
 
+.col-3 {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+
+
+&.alt {
+    text-align: right;
+  }
+}
+
+.col {
+  padding-top: 5%;
+}
+
 .col-32 {
   padding-left: 25%;
   padding-top: 5%;
+  margin-bottom: -35px;
 }
 
 img {
@@ -69,6 +87,19 @@ img {
 
 .col-md-6{
   padding: 5% 10% 5% 10%;
+}
+
+.col-sm-8{
+  padding-left: 10%;
+  padding-right: 35%;
+  padding-top: 5%;
+  text-align: left;
+}
+
+.col-sm-4 {
+  text-align: right;
+  padding-right: 10%;
+  padding-top: 5%;
 }
 
 .btn-outline-light {

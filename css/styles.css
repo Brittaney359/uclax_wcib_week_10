@@ -1,122 +1,42 @@
 body {
-  font-family: 'Montserrat', sans-serif; }
+  padding-top: 3.5rem;
+  background-color: #e5e5e5; }
 
-h1 {
-  font-weight: bold;
-  font-size: 60px; }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; }
 
-h2 {
-  font-size: 45px;
-  font-weight: bold; }
+.jumbotron {
+  background-image: url("/images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto; }
 
-h6 {
-  font-size: 12px;
-  font-weight: bold;
-  padding-top: 60px; }
-
-.container {
-  background-color: #0cb3f8;
-  max-width: 100%; }
-
-.container2 {
-  background-color: #fff;
-  padding: 1.5% 15% .5% 15%; }
-
-.container3 {
-  background-color: #f5f4f4;
-  padding-top: 5%; }
-
-.container4 {
-  background-color: #000;
-  padding-top: 5%;
-  padding-bottom: 5%; }
-
-.container5 {
-  background-image: url("../images/cliff.png");
-  background-size: 100%;
-  padding-top: 5%;
-  padding-bottom: 5%; }
-
-.row {
-  margin-left: 7%;
-  margin-right: 7%; }
-
-.col-6 {
-  padding-left: 10%;
-  padding-top: 10%;
-  color: #ffffff; }
-
-.col-3 {
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 5%; }
-  .col-3.alt {
-    text-align: right; }
-
-.col {
-  padding-top: 5%; }
-
-.col-32 {
-  padding-left: 25%;
-  padding-top: 5%;
-  margin-bottom: -35px; }
-
-img {
-  max-width: 100%; }
-
-.col-md-3 {
-  padding: 3% 4% 3% 4%; }
+.thumbnail img {
+  width: 100%; }
 
 .col-md-6 {
-  padding: 5% 10% 5% 10%; }
+  max-width: 100%;
+  height: 100%;
+  padding: 8%; }
 
-.col-sm-8 {
-  padding-left: 10%;
-  padding-right: 35%;
-  padding-top: 5%;
-  text-align: left; }
+.container {
+  font-family: 'Dancing Script', cursive;
+  color: #838383;
+  text-shadow: 2px 2px 2px;
+  padding-left: 400px; }
 
-.col-sm-4 {
-  text-align: right;
-  padding-right: 10%;
-  padding-top: 5%; }
+.container p {
+  font-family: 'Alice', serif; }
 
-.btn-outline-light {
-  border-radius: 20px;
-  font-weight: bold;
-  font-size: 10px;
-  margin-top: 15%; }
-
-.btn-outline-none {
-  font-weight: bold;
-  font-size: 10px;
-  color: #fff;
-  margin-top: 15%; }
-
-.btn-primary {
-  font-weight: bold;
-  font-size: 10px;
-  border-radius: 20px;
-  padding: 2px 15px 2px 15px;
-  margin-right: 20px;
-  box-shadow: 4px 4px 15px #1b8bf9; }
-
-.btn-outline-primary {
-  font-weight: bold;
-  margin-top: 52px;
-  margin-bottom: 52px;
-  border-radius: 30px;
-  padding: 15px 30px 15px 30px; }
-
-.header-padding {
-  padding: 5% 10% 0px 10%;
-  background-color: #0cb3f8;
-  color: #fff; }
-
-.price {
-  background: #fff;
-  border-radius: 5px;
-  padding-top: 60px;
-  padding-bottom: 10px; }
-  .price.alt {
-    background: #1b8bf9; }
+footer {
+  background-color: #212529;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  box-shadow: none; }

@@ -19,6 +19,24 @@ body {
 
 }
 
+.jumbotron-1 {
+  background-image: url("/images/design.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.jumbotron-2 {
+  background-image: url("/images/resume.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+
+}
+
 .thumbnail img {
   width: 100%;
 }

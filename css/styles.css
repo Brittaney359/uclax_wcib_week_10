@@ -15,15 +15,15 @@ body {
   max-width: 100%;
   height: auto; }
 
-.jumbotron-1 {
-  background-image: url("/images/design.jpeg");
+.jumbotron-2 {
+  background-image: url("/images/design.png");
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
   height: auto; }
 
-.jumbotron-2 {
-  background-image: url("/images/resume.jpg");
+.jumbotron-1 {
+  background-image: url("/images/resume.png");
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
@@ -40,11 +40,43 @@ body {
 .container {
   font-family: 'Dancing Script', cursive;
   color: #838383;
-  text-shadow: 2px 2px 2px;
+  text-shadow: 2px 2px 2px white;
   padding-left: 400px; }
 
 .container p {
   font-family: 'Alice', serif; }
+
+.row h3 {
+  font-family: 'Alice', serif;
+  padding-bottom: 5px;
+  padding-left: 50px; }
+
+ul {
+  list-style-type: none; }
+
+.container3 p {
+  font-family: 'Alice', serif;
+  padding-bottom: 5px; }
+
+.container4 p {
+  font-family: 'Alice', serif;
+  padding-bottom: 5px; }
+
+.container2 {
+  padding-left: 55px;
+  padding-right: 55px; }
+
+.container3 {
+  font-family: 'Dancing Script', cursive;
+  color: #000;
+  text-shadow: 2px 2px 2px white;
+  padding-left: 50px; }
+
+.container4 {
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  text-shadow: 2px 2px 2px black;
+  padding-left: 50px; }
 
 footer {
   background-color: #212529;
